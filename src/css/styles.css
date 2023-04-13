@@ -25,3 +25,29 @@ body {
   margin: 0;
   background-color: #111;
 }
+.mierda {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(177, 59, 232);
+  box-shadow: 300px 200px rgb(118, 30, 207), 600px 0 rgb(188, 77, 236),
+    0 200px 30px rgb(188, 77, 236);
+}
+.mierda::after {
+  content: "";
+  position: absolute;
+  left: 300px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(117, 166, 226);
+}
+.mierda::before {
+  content: "";
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(20, 94, 184);
+}
